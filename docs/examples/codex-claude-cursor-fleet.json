@@ -1,0 +1,22 @@
+{
+  "version": "delegate-fleet.v1",
+  "lanes": {
+    "feature": {
+      "implementer": "codex"
+    },
+    "tests": {
+      "implementer": "codex"
+    },
+    "ui": {
+      "implementer": "cursor"
+    },
+    "review": {
+      "implementer": "claude",
+      "readOnly": true
+    },
+    "audit": {
+      "implementer": "claude",
+      "readOnly": true
+    }
+  }
+}
